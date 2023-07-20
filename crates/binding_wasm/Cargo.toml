@@ -8,3 +8,10 @@ edition = "2021"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
+wasm-bindgen = "0.2.84"
+js-sys = "0.3"
+stc_visit = { path = "../stc_visit" }
+stc_ts_dts = { path = "../stc_ts_dts" }
+
+[dev-dependencies]
+wasm-bindgen-test = "0.3.33"
